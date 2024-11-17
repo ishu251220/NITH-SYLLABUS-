@@ -1,0 +1,74 @@
+{
+  "short_name": "nith syllabus",
+  "name": "nith syllabus",
+  "description": "Search NIT Hamirpur syllabus and create todo lists",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "logo32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "logo64.png",
+      "sizes": "64x64",
+      "type": "image/png"
+    },
+    {
+      "src": "logo192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "logo512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "https://nithsyllabus.netlify.app",
+  "display": "standalone",
+  "theme_color": "#307ada",
+  "background_color": "#4dabf5",
+  "shortcuts": [
+    {
+      "name": "Todolist",
+      "url": "/todolist",
+      "icons": [
+        {
+          "src": "todo-icon.ico",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "./screenshots/mobile1.png",
+      "sizes": "480x1056",
+      "type": "image/jpg"
+    },
+    {
+      "src": "./screenshots/mobile2.png",
+      "sizes": "480x1056",
+      "type": "image/jpg"
+    },
+    {
+      "src": "./screenshots/mobile3.png",
+      "sizes": "480x1056",
+      "type": "image/jpg"
+    },
+    {
+      "src": "./screenshots/mobile4.png",
+      "sizes": "480x1056",
+      "type": "image/jpg"
+    }
+  ],
+  "launch_handler": {
+    "route_to": "existing-client",
+    "navigate_existing_client": "never"
+  }
+}
