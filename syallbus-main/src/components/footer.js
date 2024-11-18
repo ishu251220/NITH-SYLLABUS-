@@ -31,7 +31,7 @@ export default function Footer({ visitCount }) {
        
         data-icon="octicon-star"
         data-show-count="true"
-        aria-label="Star kumar sundram/nith-syllabus on GitHub"
+        aria-label="Star Ishu Meena/nith-syllabus on GitHub"
       >
         Star
       </GitHubButton>
